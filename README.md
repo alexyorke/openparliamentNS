@@ -1,7 +1,19 @@
 A site that scrapes and republishes information on Canada's House of Commons.
 
-License
-=======
+# Building (instructions incomplete)
+
+Run the following from a PowerShell prompt:
+
+```powershell
+python -m venv venv_openparliament
+.\venv_openparliament\Scripts\Activate.ps1
+pip3 install -r requirements.txt
+python manage.py runserver --settings parliament.settings 0.0.0.0:8000
+```
+
+Access the application at `http://localhost:8000/`.
+
+# License
 
 Code is released under the AGPLv3 (see below). However, any site you create
 using this code cannot use the openparliament.ca name or logo, except as
@@ -16,11 +28,10 @@ License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU Affero General Public License for more details.
 
-Usage
-============
+# Usage
 
 This is the source code for a specific site and isn't adapted for reuse or
 other purposes. But if it's useful to you, that's great!
