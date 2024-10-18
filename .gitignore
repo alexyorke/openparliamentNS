@@ -26,3 +26,4 @@ hansard-cache/
 *.code-workspace
 docker-compose.yml
 /openpar
+/venv_openparliament
