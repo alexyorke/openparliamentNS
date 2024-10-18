@@ -39,4 +39,4 @@ COPY config-examples/settings.py.example parliament/settings.py
 RUN python manage.py compress --settings=parliament.offline_compress_settings
 
 EXPOSE 8000
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "--settings", "parliament.settings", "0.0.0.0:8000"]
