@@ -2,7 +2,7 @@ services:
   op:
     build: ./
     ports:
-      - "8000"
+      - "8000:8000"
     environment:
       - DATABASE_URL=postgres://op:op@postgres/parliament
     volumes:
