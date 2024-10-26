@@ -37,7 +37,7 @@ load into Postgres from <https://openparliament.ca/data-download/>.
 The easiest way to set up a testbed is to do the following:
 ```sh
 cp ./config-examples/docker-compose.yml-example ./docker-compose.yml
-cp ./config-examples/settings.py-example ./settings.py
+cp ./config-examples/settings.py.example ./settings.py
 docker-compose up
 ```
 
