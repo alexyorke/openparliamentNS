@@ -561,9 +561,9 @@ lxml==6.1.0 \
     # via
     #   -r requirements.in
     #   lxml-html-clean
-lxml-html-clean==0.1.1 \
-    --hash=sha256:58c04176593c9caf72ec92e033d2f38859e918b3eff0cc0f8051ad27dc2ab8ef \
-    --hash=sha256:8a644ed01dbbe132fabddb9467f077f6dad12a1d4f3a6a553e280f3815fa46df
+lxml-html-clean==0.4.4 \
+    --hash=sha256:58f39a9d632711202ed1d6d0b9b47a904e306c85de5761543b90e3e3f736acfb \
+    --hash=sha256:ce2ef506614ecb85ee1c5fe0a2aa45b06a19514ec7949e9c8f34f06925cfabcb
     # via -r requirements.in
 markdown==3.8.1 \
     --hash=sha256:46cc0c0f1e5211ab2e9d453582f0b28a1bfaf058a9f7d5c50386b99b588d8811 \
