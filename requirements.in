@@ -9,7 +9,7 @@ lxml
 lxml_html_clean
 cssselect
 Markdown
-pysolr
+pysolr>=3.10
 requests
 psycopg
 webob

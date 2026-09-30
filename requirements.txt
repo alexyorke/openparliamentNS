@@ -710,8 +710,8 @@ pyproject-hooks==1.2.0 \
     # via
     #   build
     #   pip-tools
-pysolr==3.9.0 \
-    --hash=sha256:6ef05feb87c614894243eddc62e9b0a6134a889c159ae868655cf6cd749545e6
+pysolr==3.10.0 \
+    --hash=sha256:127b4a2dd169234acb1586643a6cd1e3e94b917921e69bf569d7b2a2aa0ef409
     # via -r requirements.in
 rcssmin==1.2.2 \
     --hash=sha256:806986eaf7414545edc28a1d29523e9560e49e151ff4a337d9d1f0271d6e1cc4
