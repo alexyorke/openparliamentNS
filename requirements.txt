@@ -793,8 +793,8 @@ pyproject-hooks==1.2.0 \
     # via
     #   build
     #   pip-tools
-pysolr==3.9.0 \
-    --hash=sha256:6ef05feb87c614894243eddc62e9b0a6134a889c159ae868655cf6cd749545e6
+pysolr==3.10.0 \
+    --hash=sha256:127b4a2dd169234acb1586643a6cd1e3e94b917921e69bf569d7b2a2aa0ef409
     # via -r requirements.in
 rcssmin==1.2.2 \
     --hash=sha256:806986eaf7414545edc28a1d29523e9560e49e151ff4a337d9d1f0271d6e1cc4
@@ -896,9 +896,9 @@ pip==26.1 \
     --hash=sha256:4e8486d821d814b77319acb7b9e8bf5a4ee7590a643e7cb21029f209be8573c1 \
     --hash=sha256:81e13ebcca3ffa8cc85e4deff5c27e1ee26dea0aa7fc2f294a073ac208806ff3
     # via pip-tools
-setuptools==78.1.1 \
-    --hash=sha256:c3a9c4211ff4c309edb8b8c4f1cbfa7ae324c4ba9f91ff254e3d305b9fd54561 \
-    --hash=sha256:fcc17fd9cd898242f6b4adfaca46137a9edef687f43e6f78469692a5e70d851d
+setuptools==83.0.0 \
+    --hash=sha256:025bccbbf0fa05b6192bc64ae1e7b16e001fd6d6d4d5de03c97b1c1ade523bef \
+    --hash=sha256:29b23c360f22f414dc7336bb39178cc7bcbf6021ed2733cde173f09dba19abb3
     # via
     #   calmjs
     #   calmjs-parse
