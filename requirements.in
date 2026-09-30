@@ -1,4 +1,4 @@
-django<5.2
+django<5.3
 dj-database-url
 django-compressor==4.6.0
 django-extensions
